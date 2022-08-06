@@ -11,7 +11,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-        <style>
+        <!-- <style>
             .container {
 
                 animation: animate 16s ease-in-out infinite;
@@ -33,32 +33,38 @@
             }
 
 
-        </style>
+        </style> -->
 
     </head>
 
     <body>
-        <div style="justify-content: center;" class="header">
+        <div style="justify-content: center; margin-top: 5px;" class="header">
             <div class="logo">
                 
-                <img class="lycans-logo" src="./fotos/Logo.png" alt="Lycans Logo">
+                <a href="">
+                    <img class="lycans-logo" src="./fotos/Logo.png" alt="Lycans Logo">
+                </a>
                        
             </div>
         </div>
-        <div style="background: rgb(156, 153, 153); margin-bottom: 30px ;" class="header2" id="header2">
+        <div style="background: rgb(156, 153, 153); margin-bottom: 30px; margin-top: 5px;" class="header2" id="header2">
             
             <a class="waves-effect waves-light btn" href="#direccion">Dirección y Contacto</a>
             <div class="tooltipped btn waves-effect waves-light" data-position="bottom" data-tooltip="Proximamente!  ">Equipamiento</div>
             <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Horarios</a>
-        </div>
-
-        
+        </div>        
 
         <div id="modal1" class="modal">
             <div class="modal-content">
               <h4>Entrenamiento y Clases Guiadas</h4>
-              <p>Lunes, Miércoles y Viernes</p>
-              <p>De 8 a 22 hs ATR PERRO CUMBIA CAGETEALA PIOLA WACHO!</p>
+                <div style="margin-bottom: 15px;">
+                    <p>Lunes, Miércoles y Viernes</p>
+                    <p>De 18 a 21 hs ATR PERRO CUMBIA CAGETEALA PIOLA WACHO!</p>
+                </div>
+                <div style="margin-top: 15px;">
+                    <p>Sabados</p>
+                    <p>A definir...</p>
+                </div>
             </div>
             <div class="modal-footer">
               <a href="#!" class="modal-close waves-effect waves-green btn-flat btn">Entendido!</a>
@@ -134,14 +140,18 @@
             </div>
             <div class="adress">
                 <h3 style="padding-left:15px;">Contacto</h3>
-                <div style="border-style: solid;width: 100px;height: 100px;">
+                <div style="width: 100px;height: 100px;">
 
                     <a class="tooltipped" data-position="right" data-tooltip="+54 9 3521 3553535" href="https://api.whatsapp.com/send?phone=+5493525611439&text=Hola, Nececito mas informacion!"><img src="./fotos/whatsapp-svgrepo-com.svg" alt="what"></a>
                     <a class="tooltipped" data-position="right" data-tooltip="lycans.cross" href="https://www.instagram.com/lycans.cross/"><img src="./fotos/instagram-svgrepo-com.svg" alt=""></a>
                 </div>
             </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+
+            <h7>- Obteniendo tu mejor versión, un RM a la vez -</h7>
+
+        </div>
 
 
         <!-- Compiled and minified JavaScript -->
