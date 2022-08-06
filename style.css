@@ -1,0 +1,138 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    background-color: #1d3961;
+    color: #f9faf8;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.header2 {
+    color: #f9faf8;
+    display: flex;
+    justify-content: right;
+    height: 50px;
+           
+}
+
+#header2 .btn {
+    background-color: rgb(156, 153, 153);
+    margin: 5px;
+    
+}
+
+
+.lycans-logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-style: solid;
+}
+
+.body-one {
+    display: flex;
+    background-color: rgb(206, 206, 206);
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sub-subtitulo { 
+    color: #fff;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.body-three {
+    display: flex;
+    background-color: #1d3961;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.adress {
+    display: flex;
+    width: 1100px;
+
+    background-color: grey;
+}
+
+.footer {
+    display: flex;
+    background-color: #1d3961;
+}
+
+.carousel {
+    min-height: 600px;
+    
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 800px;
+    height: 800px;
+
+}
+
+.carousel .carousel-item img {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+    position: absolute;
+    
+    z-index: -1;
+    border-radius: 15px;
+}
+
+#id .carousel-item img {
+    width: 350px;
+}
+
+#id .carousel-item h2 {
+    color: red;
+}
+
+#id .carousel-item .linea-division {
+    color: #ffffff;
+}
+
+#id .carousel-item p {
+    color: #f9faf8;
+}
