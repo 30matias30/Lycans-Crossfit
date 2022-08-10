@@ -10,152 +10,123 @@
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-        <!-- <style>
-            .container {
-
-                animation: animate 16s ease-in-out infinite;
-            }
-
-            @keyframes animate {
-                0%,100%{
-                    background-color: aliceblue;
-                }
-                25%{
-                    background-color: antiquewhite;
-                }
-                50%{
-                    background-color:azure;
-                }
-                75%{
-                    background-color:blanchedalmond
-                }
-            }
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-        </style> -->
+    <style>
+        img{
+          width: 100%;
+        }
+        body {
+          /* background: url(/fotos/Fondo/Fondo0.jpg);  */
+          background-size: cover;
+          background-repeat: no-repeat;
+          margin: 0;
+          height: 100vh;
+          transition: background 0.5s;
+          color: antiquewhite; 
+          text-shadow: 3px 3px 3px black;
+          
+        }
+      </style>
 
     </head>
 
-    <body>
-        <div style="justify-content: center; margin-top: 5px;" class="header">
-            <div class="logo">
-                
-                <a href="">
-                    <img class="lycans-logo" src="./fotos/Logo.png" alt="Lycans Logo">
-                </a>
-                       
-            </div>
-        </div>
-        <div style="background: rgb(156, 153, 153); margin-bottom: 30px; margin-top: 5px;" class="header2" id="header2">
-            
-            <a class="waves-effect waves-light btn" href="#direccion">Dirección y Contacto</a>
-            <div class="tooltipped btn waves-effect waves-light" data-position="bottom" data-tooltip="Proximamente!  ">Equipamiento</div>
-            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Horarios</a>
-        </div>        
-
-        <div id="modal1" class="modal">
-            <div class="modal-content">
-              <h4>Entrenamiento y Clases Guiadas</h4>
-                <div style="margin-bottom: 15px;">
-                    <p>Lunes, Miércoles y Viernes</p>
-                    <p>De 18 a 21 hs ATR PERRO CUMBIA CAGETEALA PIOLA WACHO!</p>
-                </div>
-                <div style="margin-top: 15px;">
-                    <p>Sabados</p>
-                    <p>A definir...</p>
-                </div>
-            </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat btn">Entendido!</a>
-            </div>
-          </div>
+    <body onload="timerFotos()">
         
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    
-                    <div id="id" class="carousel center-align">                        
+        <div style="display: flex;align-items: center; height: 100px; background: linear-gradient(rgba(0, 150, 250, 0.192), rgba(0, 46, 107, 0.062));">
 
-                        <div class="carousel-item">
-                            <h2>Aquí va Nikov</h2>
-                            <div class="linea-division"></div>
-                            <p>el mas lindo</p>
-                            <img src="./fotos/Carousel1.png" alt="">
-                        </div>
+            <div style="display: flex; background-color: none; align-items: center; padding-top: 100px;">
+                <img style="width: 300px; height: 300px;" src="./fotos/Logo.png" alt="">
+            </div>
+            
+            <a style="margin: 30px" class="btn-large z-depth-5" data-position="bottom" href="#horarios">Horarios</a>
+            <div style="margin: 30px" class="btn-large tooltipped z-depth-5" data-position="bottom" data-tooltip="PROXIMAMENTE!"  >Dirección</div>
+            <div style="margin: 30px" class="btn-large tooltipped z-depth-5" data-position="bottom" data-tooltip="PROXIMAMENTE!"  >Otros</div>
+            
 
-                        <div class="carousel-item">
-                            <h2>Fuerza</h2>
-                            <div class="linea-division"></div>
-                            <p>Antes que Debilidad</p>
-                            <img src="./fotos/Carousel2.png" alt="">
-                        </div>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; height: 90%;">
+            <div style="display: flex; border-style: none;">
 
-                        <div class="carousel-item">
-                            <h2>Fuerza</h2>
-                            <div class="linea-division"></div>
-                            <p>Antes que Debilidad</p>
-                            <img src="./fotos/Carousel3.jpg" alt="">
-                        </div>
+                <i id="btn-left" style="display: none; align-items: center; border-radius: 25%; margin-left: 80px;" class="material-icons btn-large z-depth-5">keyboard_arrow_left</i>
+            
+            </div>
 
-                        <div class="carousel-item">
-                            <h2>Fuerza</h2>
-                            <div class="linea-division"></div>
-                            <p>Antes que Debilidad</p>
-                            <img src="./fotos/Carousel4.jpeg" alt="">
-                        </div>
+                <div id="div0" style="width: 1000px; height: 700px; padding-top: 100px;background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.062));">
+                
+                    <div style="color: antiquewhite; text-shadow: 3px 3px 3px black; font-size: 30px;"><h1 style="display: flex; justify-content: center;">2x1 para nuevos alumnos!</h1></div>
+                    <div class="linea-division"></div>
+                    <div style="color: antiquewhite; text-shadow: 3px 3px 3px black; font-size: 20px;"><h4 style="display: flex; justify-content: center;"> Si queres comenzar con nosotros, vení con un amigo</h4></div>
+                    <div style="color: antiquewhite; text-shadow: 3px 3px 3px black; font-size: 20px;"><h4 style="display: flex; justify-content: center;"> Te esperamos todo el año!</h4></div>
+                
+                </div>
 
-                        <div class="carousel-item">
-                            <h2>Fuerza</h2>
-                            <div class="linea-division"></div>
-                            <p>Antes que Debilidad</p>
-                            <img src="./fotos/Carousel5.jpeg" alt="">
-                        </div>
+                <div id="div1" style="width: 1000px; height: 700px; padding-top: 100px;background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.062));">
+                
+                    <div style="color: antiquewhite; text-shadow: 3px 3px 3px black; font-size: 30px;"><h1 style="display: flex; justify-content: center;">18x1 para nuevos alumnos!</h1></div>
+                    <div style="color: antiquewhite; text-shadow: 3px 3px 3px black; font-size: 20px;"><h4 style="display: flex; justify-content: center;"> Si queres comenzar con nosotros, vení con un amigo</h4></div>
+                    <div style="color: antiquewhite; text-shadow: 3px 3px 3px black; font-size: 20px;"><h4 style="display: flex; justify-content: center;"> Te esperamos todo el año!</h4></div>
+                
+                </div>
 
-                        <div class="carousel-item">
-                            <h2>Fuerza</h2>
-                            <div class="linea-division"></div>
-                            <p>Antes que Debilidad</p>
-                            <img src="./fotos/Carousel6.jpeg" alt="">
-                        </div>
-
-                        <div class="carousel-item">
-                            <h2>Fuerza</h2>
-                            <div class="linea-division"></div>
-                            <p>Antes que Debilidad</p>
-                            <img src="./fotos/Carousel7.jpeg" alt="">
-                        </div>
-
+                <div id="div2" style="width: 1000px; height: 700px;background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.062));">
+                    <div>
+                        <div style="display: flex; justify-content:center;"><h1>Encontranos</h1></div>
+                        <div class="linea-division"></div>
+                        <div style="display: flex; justify-content: none;">
+                            <div style="padding-left: 50px;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2418.9259901994797!2d-64.08695075808296!3d-30.973888215708513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432638e4b60e485%3A0x8d135d72409a857c!2sC.%20Mariano%20Moreno%20Nte.%20256%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1658956909616!5m2!1ses-419!2sar"
+                                width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div style="margin-left: 50px;" class="socialMedia">
+                                <div style="width: 100px; height: 100px;">
+                                    <a class="tooltipped" data-position="right" data-tooltip="+54 9 3525 611439" href="https://api.whatsapp.com/send?phone=+5493525611439&text=Hola, Nececito mas informacion!"><img src="./fotos/whatsapp-svgrepo-com.svg" alt="what"></a>
+                                    <a class="tooltipped" data-position="right" data-tooltip="lycans.cross" href="https://www.instagram.com/lycans.cross/"><img src="./fotos/instagram-svgrepo-com.svg" alt=""></a>
+                                    <a class="tooltipped" data-position="right" data-tooltip="PROXIMAMENTE!" href=""><img src="./fotos/facebook-svgrepo-com.svg" alt=""></a>
+                                    <a class="tooltipped" data-position="right" data-tooltip="PROXIMAMENTE!" href=""><img src="./fotos/twitter-svgrepo-com.svg" alt=""></a>
+                                </div>                
+                            </div>
+                        </div>                
                     </div>
-
-
                 </div>
-            </div>
-        </div>
-        <h1 id="direccion">Dirección y Contacto</h1>
-        <div class="body-three">            
-            <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2418.9259901994797!2d-64.08695075808296!3d-30.973888215708513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432638e4b60e485%3A0x8d135d72409a857c!2sC.%20Mariano%20Moreno%20Nte.%20256%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1658956909616!5m2!1ses-419!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="adress">
-                <h3 style="padding-left:15px;">Contacto</h3>
-                <div style="width: 100px;height: 100px;">
 
-                    <a class="tooltipped" data-position="right" data-tooltip="+54 9 3521 3553535" href="https://api.whatsapp.com/send?phone=+5493525611439&text=Hola, Nececito mas informacion!"><img src="./fotos/whatsapp-svgrepo-com.svg" alt="what"></a>
-                    <a class="tooltipped" data-position="right" data-tooltip="lycans.cross" href="https://www.instagram.com/lycans.cross/"><img src="./fotos/instagram-svgrepo-com.svg" alt=""></a>
+                <div id="div3" style="width: 1000px; height: 700px; padding-top: 100px;background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.062));">
+                
+                    <div style="color: antiquewhite; text-shadow: 3px 3px 3px black; font-size: 30px;"><h1 style="display: flex; justify-content: center;">AHHHHHHHHHHHHHHHHHHHH</h1></div>
+                    <div style="color: antiquewhite; text-shadow: 3px 3px 3px black; font-size: 20px;"><h4 style="display: flex; justify-content: center;"> Si queres comenzar con nosotros, vení con un amigo</h4></div>
+                    <div style="color: antiquewhite; text-shadow: 3px 3px 3px black; font-size: 20px;"><h4 style="display: flex; justify-content: center;"> Te esperamos todo el año!</h4></div>
+                
                 </div>
+                
+            <div style="display: flex; border-style: flex;">
+            
+                <i id="btn-right" style="display: none; align-items: center; border-radius: 25%; margin-right: 80px;" class="material-icons btn-large z-depth-5">keyboard_arrow_right</i>
+            
             </div>
         </div>
-        <div class="footer">
 
-            <h7>- Obteniendo tu mejor versión, un RM a la vez -</h7>
+        <div style="display: flex; background: #005C92;padding: 50px; justify-content: center; align-items: center; box-shadow: 0 0 0.6em white;">
+
+            <div id="horarios" style="box-shadow: 0 0 0.6em white;padding: 50px; background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.062));display: flex; justify-content: center;align-items: center; flex-flow: column; flex-direction: column;">
+
+                <h1>Horarios</h1>
+                <div>
+                    <p>Entrenamientos personalizados con profesores certificados</p>
+                    <p>Todos los Lunes, Miércoles y Viernes</p>
+                    <p>de 18 a 21 hs</p>
+                </div>
+
+            </div>
 
         </div>
 
+        
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        
 
         <script src="./scrypt.js"></script>
 

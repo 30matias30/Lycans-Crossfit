@@ -1,140 +1,31 @@
-* {
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
+body .btn-large {
+    background-color: #005C92;
+    user-select: none;
+    border-radius: 25%;
 }
 
-
-.header {
-    display: flex;
-    background-color: #1d3961;
-    color: #f9faf8;
-    padding: 25px;
-    justify-content: space-between;
+body .btn {
+    background-color: #005C92;
+    border-radius: 25%;
 }
 
-.header2 {
-    color: #f9faf8;
-    display: flex;
-    justify-content: right;
-    height: 50px;
-           
+div {
+    transition: all 1s;
 }
 
-#header2 .btn {
-    background-color: rgb(156, 153, 153);
-    margin: 5px;
-    
-}
-
-
-.lycans-logo {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    border-style: none;
-}
-
-.body-one {
-    display: flex;
-    background-color: rgb(206, 206, 206);
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    padding-bottom: 30px;
-}
-
-.titulo {
-    font-size: 40px;
-    font-family: 'Dancing Script', cursive;
-    margin-bottom: 40px;
-    color: #fff;
-}
-
-.subtitulo {
-    margin: 0;
-    color: #000;
-    display: inline;
-    font-size: 50px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.sub-subtitulo { 
-    color: #fff;
-    margin: 7px 0;
-    font-size: 50px;
-    font-weight: 600;
-    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
-    font-family: 'Dancing Script', cursive;
-    margin-top: 0;
+.black {
+    background: black;
 }
 
 .linea-division {
     width: 80%;
     height: 2px;
-    background-color: #ffffff;
-}
-
-.body-three {
+    background-color: antiquewhite;
     display: flex;
-    background-color: #1d3961;
-    padding: 30px;
-    justify-content: space-between;
+    margin-left: 100px;
+    margin-bottom: 30px;
 }
 
-.adress {
-    display: flex;
-    width: 1100px;
-
-    background-color: rgb(156, 153, 153);
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    background-color: #1d3961;
-    color: #f9faf8;
-}
-
-.carousel {
-    min-height: 600px;
-    
-}
-
-.carousel .carousel-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.btn-large {
     user-select: none;
-    width: 800px;
-    height: 800px;
-
-}
-
-.carousel .carousel-item img {
-    width: 200%;
-    height: 200%;
-    object-fit: cover;
-    position: absolute;
-    
-    z-index: -1;
-    border-radius: 15px;
-}
-
-#id .carousel-item img {
-    width: 350px;
-}
-
-#id .carousel-item h2 {
-    color: red;
-}
-
-#id .carousel-item .linea-division {
-    color: #ffffff;
-}
-
-#id .carousel-item p {
-    color: #f9faf8;
 }
