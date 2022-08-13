@@ -9,10 +9,6 @@ body .btn {
     border-radius: 25%;
 }
 
-div {
-    transition: all 1s;
-}
-
 .black {
     background: black;
 }
@@ -28,4 +24,12 @@ div {
 
 .btn-large {
     user-select: none;
+}
+
+
+.one-above-all {
+    width: 100%;
+    
+    margin: 0 auto;
+    overflow: hidden;
 }
