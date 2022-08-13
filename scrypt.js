@@ -2,7 +2,7 @@ let btnLeft = document.getElementById('btn-left');
 let btnRight = document.getElementById('btn-right');
 let bodyy = document.body;
 
-let num = 0;
+let num = 2;
 let contador;
 let bandera = false;
 
@@ -62,7 +62,7 @@ function timerFotos() {
 
   console.log(num);
 
-  setTimeout(timerFotos, 7000);
+  setTimeout(timerFotos, 1000000);
 
 }
 

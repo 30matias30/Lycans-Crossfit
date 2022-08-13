@@ -19,7 +19,7 @@ body .btn {
     height: 2px;
     background-color: antiquewhite;
     display: flex;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-bottom: 30px;
 }
 
@@ -44,12 +44,13 @@ body .btn {
 
     body {
         text-align: center;
+        background-position: center;
     }
 
     .hell-div {
         width: 50%;
-        font-size: small;
         
+        font-size: small; 
 
     }
 
@@ -57,15 +58,53 @@ body .btn {
         display: flex;
         flex-flow: column wrap;
         align-items: center;
+        justify-content: center;
+    }
+
+    #div2 {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .map {
-        width: 50%;
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .socialMedia {
-        display: flex;
-        justify-content: center;
-        flex-flow: row nowrap;
+    #googleMap {
+        width: 40vh;
+        height: 30vh;
     }
+
+    
+    .socialMedia {
+        justify-content: space-around;
+        
+        display: flex;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        
+        
+    }
+    
+    .socialMedia .tooltipped {
+        width: 100px;
+        height: 1000px;
+        margin: 1px;
+    }
+
+    .mediaIcono {
+        width: 30px;
+        height: 30px;
+    }
+
 }
