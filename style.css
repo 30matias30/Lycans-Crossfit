@@ -34,3 +34,38 @@ body .btn {
     margin: 0 auto;
     overflow: hidden;
 }
+
+#hell {
+    width: 80%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px){
+
+    body {
+        text-align: center;
+    }
+
+    .hell-div {
+        width: 50%;
+        font-size: small;
+        
+
+    }
+
+    .contenedor-map {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .map {
+        width: 50%;
+    }
+
+    .socialMedia {
+        display: flex;
+        justify-content: center;
+        flex-flow: row nowrap;
+    }
+}
