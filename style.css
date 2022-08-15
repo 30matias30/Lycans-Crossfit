@@ -101,12 +101,14 @@ body .btn {
     #header-btn {
         display: flex;
         flex-flow: row nowrap;
+        margin-top: -40px;
     }
     
     #header {
         flex-flow: column;
         height: 30vh;
-        
+        margin-top: -36px;
+        margin-bottom: -50px;
     }
 
     #logo-cont {
@@ -128,9 +130,19 @@ body .btn {
 
     .contenedor-map {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: column-reverse wrap;
         align-items: center;
         justify-content: center;
+    }
+
+    #div0 {
+        height: 40vh;
+        margin-bottom: 20vh;
+    }
+
+    #div1 {
+        height: 40vh;
+        margin-bottom: 20vh;
     }
 
     #div2 {
@@ -140,7 +152,12 @@ body .btn {
         display: flex;
         align-items: center;
         justify-content: center;
-        min-width: 4vh;
+        min-width: 40vh;
+    }
+
+    #div3 {
+        height: 40vh;
+        margin-bottom: 20vh;
     }
 
     .map {
@@ -164,7 +181,7 @@ body .btn {
         margin-top: 20px;
         margin-left: 0;
         width: 250px;
-        height: 100px;
+        height: 75px;
         
         
     }
