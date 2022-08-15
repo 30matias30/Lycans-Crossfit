@@ -9,9 +9,22 @@ body .btn {
     border-radius: 25%;
 }
 
-h1 {
-    justify-content: center;
-    font-size: 1vw;
+#header {
+    display: flex;
+    align-items: center;
+    height: 15vh; 
+    background: linear-gradient(rgba(0, 150, 250, 0.192), rgba(0, 46, 107, 0.062));
+}
+
+#logo-cont {
+    display: flex; 
+    background-color: none; 
+    align-items: center; 
+    padding-top: 100px;
+}
+
+#LOGO {
+    width: 300px; height: 300px;
 }
 
 .black {
@@ -45,12 +58,17 @@ h1 {
 }
 
 .hell-div {
-    width: 60%; height: 60vh; padding-top: 100px;background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.062));
+    width: 60%; 
+    height: 80vh; 
+    padding-top: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.062));
 }
 
-#div2 {
+.div2 {
     padding: 0px;
-    width: 60%; height: 70vh;background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.062));
+    width: 60%; 
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.062));
 }
 
 .map {
@@ -63,7 +81,12 @@ h1 {
     
 }
 
+.socialMediaSuperior {
+    margin-left: 50px;
+}
+
 #socialMedia {
+    margin-left: 50px;
     width: 100px;
     height: 100px;
 }
@@ -75,10 +98,31 @@ h1 {
         background-position: center;
     }
 
+    #header-btn {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    #header {
+        flex-flow: column;
+        height: 30vh;
+        
+    }
+
+    #logo-cont {
+        padding-top: 0;
+    }
+
+    #LOGO {
+        width: 20vh;
+        height: 20vh;
+    }
+
     .hell-div {
         width: 50%;
-        
-        font-size: small; 
+        height: 60vh;
+        font-size: small;
+        padding-top: 50px; 
 
     }
 
@@ -96,10 +140,11 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center;
+        min-width: 4vh;
     }
 
     .map {
-        padding-left: 0;
+        padding-left: 0px;
         margin: 0;
         list-style: none;
         display: flex;
@@ -117,13 +162,15 @@ h1 {
         justify-content: space-around;        
         display: flex;
         margin-top: 20px;
-        width: 300px;
+        margin-left: 0;
+        width: 250px;
         height: 100px;
         
         
     }
     
     .mediaIcono {
+        
         width: 50px;
         height: 30px;
     }
