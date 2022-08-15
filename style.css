@@ -7,6 +7,7 @@ body .btn-large {
 body .btn {
     background-color: #005C92;
     border-radius: 25%;
+    font-size:1vw;
 }
 
 #header {
@@ -96,6 +97,10 @@ body .btn {
     body {
         text-align: center;
         background-position: center;
+    }
+
+    .btn {
+        font-size: small;
     }
 
     #header-btn {

@@ -17,7 +17,7 @@ function timerFotos() {
   
   if(num == 0){
     // num++;
-    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
 
     document.getElementById('div0').style.display = 'block';
     document.getElementById('div1').style.display = 'none';
@@ -28,7 +28,7 @@ function timerFotos() {
 
   } else if(num == 1){
     
-    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
 
     document.getElementById('div0').style.display = 'none';
     document.getElementById('div1').style.display = 'block';
@@ -39,7 +39,7 @@ function timerFotos() {
     
   } else if(num == 2){
         
-      bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+      bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
   
       document.getElementById('div0').style.display = 'none';
       document.getElementById('div1').style.display = 'none';
@@ -50,7 +50,7 @@ function timerFotos() {
           
   } else {
 
-    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
   
       document.getElementById('div0').style.display = 'none';
       document.getElementById('div1').style.display = 'none';
@@ -69,7 +69,7 @@ function timerFotos() {
 function alertaa() {
   if(num == 1){
     --num;
-    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
 
     document.getElementById('div0').style.display = 'block';
     document.getElementById('div1').style.display = 'none';
@@ -78,7 +78,7 @@ function alertaa() {
 
   } else if(num == 2){
     
-    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
 
     document.getElementById('div0').style.display = 'none';
     document.getElementById('div1').style.display = 'block';
@@ -89,7 +89,7 @@ function alertaa() {
     
   } else if(num == 3){
         
-      bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+      bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
   
       document.getElementById('div0').style.display = 'none';
       document.getElementById('div1').style.display = 'none';
@@ -102,7 +102,7 @@ function alertaa() {
     
       num = 3;
 
-      bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+      bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
   
       document.getElementById('div0').style.display = 'none';
       document.getElementById('div1').style.display = 'none';
@@ -116,7 +116,7 @@ function alertaa() {
 function ale() {
   if(num == 0){
     // num++;
-    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
 
     document.getElementById('div0').style.display = 'block';
     document.getElementById('div1').style.display = 'none';
@@ -127,7 +127,7 @@ function ale() {
 
   } else if(num == 1){
     
-    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
 
     document.getElementById('div0').style.display = 'none';
     document.getElementById('div1').style.display = 'block';
@@ -138,7 +138,7 @@ function ale() {
     
   } else if(num == 2){
         
-      bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+      bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
   
       document.getElementById('div0').style.display = 'none';
       document.getElementById('div1').style.display = 'none';
@@ -149,7 +149,7 @@ function ale() {
           
   } else {
 
-    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.jpg)`;
+    bodyy.style.backgroundImage = `url(fotos/Fondo/Fondo${num}.webp)`;
   
       document.getElementById('div0').style.display = 'none';
       document.getElementById('div1').style.display = 'none';
