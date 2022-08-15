@@ -1,5 +1,6 @@
 let btnLeft = document.getElementById('btn-left');
 let btnRight = document.getElementById('btn-right');
+let btnDir = document.getElementById('btn-dir');
 let bodyy = document.body;
 
 let num = 0;
@@ -8,6 +9,20 @@ let bandera = false;
 
 btnLeft.addEventListener('click', alertaa);
 btnRight.addEventListener('click', ale);
+btnDir.addEventListener('click',dir);
+
+function dir() {
+
+  num = 2;
+
+  bodyy.style.backgroundImage = 'url(fotos/Fondo/Fondo2.webp)';
+
+    
+  document.getElementById('div0').style.display = 'none';
+  document.getElementById('div1').style.display = 'none';
+  document.getElementById('div2').style.display = 'block';
+  document.getElementById('div3').style.display = 'none';
+}
 
 function time(){
   contador = setTimeout(alert,5000)
@@ -62,7 +77,7 @@ function timerFotos() {
 
   console.log(num);
 
-  setTimeout(timerFotos, 5000);
+  setTimeout(timerFotos, 6000);
 
 }
 
